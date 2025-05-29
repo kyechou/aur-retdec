@@ -10,6 +10,16 @@ index ecd6f33..a586938 100644
  #include <memory>
  #include <string>
  #include <vector>
+--- a/include/retdec/demangler/borland_ast_parser.h
++++ b/include/retdec/demangler/borland_ast_parser.h
+@@ -7,6 +7,7 @@
+ #ifndef RETDEC_BORLAND_AST_PARSER_H
+ #define RETDEC_BORLAND_AST_PARSER_H
+
++#include <cstdint>
+ #include <llvm/Demangle/StringView.h>
+
+ #include "retdec/demangler/context.h"
 diff --git a/include/retdec/fileformat/types/dotnet_headers/metadata_header.h b/include/retdec/fileformat/types/dotnet_headers/metadata_header.h
 index 8645fab..57d8af6 100644
 --- a/include/retdec/fileformat/types/dotnet_headers/metadata_header.h

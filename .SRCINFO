@@ -1,11 +1,11 @@
 pkgbase = retdec
 	pkgdesc = A retargetable machine-code decompiler based on LLVM
 	pkgver = 5.0
-	pkgrel = 2
-	url = https://retdec.com/
+	pkgrel = 3
+	url = https://github.com/avast/retdec
 	arch = x86_64
 	license = MIT
-	makedepends = cmake
+	makedepends = cmake3
 	makedepends = doxygen
 	makedepends = graphviz
 	depends = openssl
@@ -17,7 +17,7 @@ pkgbase = retdec
 	source = 00-fix-missing-cstdint.patch
 	source = 01-use-yaramod-v3.21.0.patch
 	sha256sums = 216dc62fd54ff06277497492dbf44bc7a91e39249d8aefdee2e4f10fc903ce85
-	sha256sums = 4e4cd25fc540b45985d5b670c41de88edac3af2efd0b708a6c83b561b23631dc
+	sha256sums = 336c3eaf70faf398adbc4a5253278f89913b22f551882b802f857f1f41a441c0
 	sha256sums = d461f420b23fe00669c24c82d94de97b8caffde84ad164ed47f19e77348c55e3
 
 pkgname = retdec
